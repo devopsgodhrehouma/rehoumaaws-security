@@ -213,9 +213,7 @@ Dans cette tâche, vous allez inspecter la politique de seau associée à bucket
   - Le premier ID de déclaration (SID) est S3Write. Le principal est le rôle IAM BucketsAccessRole que vous avez assumé. Ce rôle est autorisé à appeler les actions s3:GetObject et s3:PutObject sur la ressource, qui est bucket2.
   - Le second SID est ListBucket. Le principal est BucketsAccessRole. Ce rôle est autorisé à appeler l'action s3:ListBucket sur la ressource, qui est bucket2.
 
-Analyse : Vous devriez maintenant avoir une meilleure compréhension de la manière dont les politiques basées sur les ressources (comme les politiques de seau S3) et
-
- les politiques basées sur les rôles (politiques associées aux rôles IAM) peuvent interagir et être utilisées ensemble.
+Analyse : Vous devriez maintenant avoir une meilleure compréhension de la manière dont les politiques basées sur les ressources (comme les politiques de seau S3) et les politiques basées sur les rôles (politiques associées aux rôles IAM) peuvent interagir et être utilisées ensemble.
 
 Dans ce laboratoire, les politiques basées sur les rôles attachées au rôle IAM BucketsAccessRole accordaient les actions s3:GetObject et s3:ListBucket sur bucket1 et les objets qu'il contient. Ces politiques basées sur les rôles n'autorisaient pas explicitement l'accès à bucket2 ; cependant, elles ne le refusaient pas non plus explicitement.
 
