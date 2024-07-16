@@ -1,1 +1,2 @@
-- https://github.com/devopsgodhrehouma/rehoumaaws-security/blob/main/Module%203%3A%20Securing%20Access%20to%20Cloud%20Resources/01-enonce.md
+
+- https://www.youtube.com/playlist?list=PLVQzKSZl3hU5i4edsBByq_kmGhKfkd75q
