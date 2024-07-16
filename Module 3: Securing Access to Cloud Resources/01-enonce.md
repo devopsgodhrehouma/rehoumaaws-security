@@ -1,3 +1,5 @@
+# https://www.youtube.com/playlist?list=PLVQzKSZl3hU5i4edsBByq_kmGhKfkd75q
+
 ### Laboratoire 3.1 : Utilisation des politiques basées sur les ressources pour sécuriser un seau S3
 
 #### Aperçu et objectifs du laboratoire
