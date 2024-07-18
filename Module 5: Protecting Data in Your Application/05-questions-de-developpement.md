@@ -19,6 +19,7 @@ Analysez l'importance d'une approche de sécurité multicouche dans le cloud. Co
 ### Question de Discussion 5: AWS KMS et Conformité Réglementaire
 **Consigne :**
 Discutez de la manière dont AWS KMS peut aider une organisation à répondre aux exigences de conformité réglementaire pour le chiffrement des données. Quels sont les défis associés à l'utilisation d'AWS KMS pour la conformité dans différents secteurs (financier, santé, éducation)? Comment les audits et les rapports facilités par AWS CloudTrail et d'autres services AWS soutiennent-ils ces efforts?
+
 ---
 # Partie 2 - avancée (optionnelle)
 
