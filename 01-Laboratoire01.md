@@ -11,8 +11,9 @@ Cette phase a pour but de sécuriser les données d'identification personnelle (
 - **Activer la journalisation des accès** pour tous les compartiments.
 - **Chiffrer les compartiments** avec des clés gérées par Amazon S3 (SSE-S3).
 - **Implémenter Amazon S3 Inventory** pour un suivi permanent des fichiers.
+- 
 🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇
-# Tâche 1.1 : Création d'un Compartiment et Application d'une Politique
+### Tâche 1.1 : Création d'un Compartiment et Application d'une Politique
 🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇
 
 ### Étape 1 : Création d'un Compartiment S3
@@ -72,7 +73,7 @@ Cette phase a pour but de sécuriser les données d'identification personnelle (
 - **Appliquer la politique :** Accédez à l'onglet Permissions du compartiment et insérez cette politique.
 
 🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇
-# Tâche 1.2 : Activation de la Gestion des Versions et Journalisation
+### Tâche 1.2 : Activation de la Gestion des Versions et Journalisation
 🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇
 
 ### Gestion des Versions
@@ -84,7 +85,7 @@ Cette phase a pour but de sécuriser les données d'identification personnelle (
   - Activez la journalisation dans les propriétés de `data-bucket-<unique-ID>`, spécifiez `s3-objects-access-log` pour stocker les journaux avec `/data-bucket` comme préfixe.
 
 🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇
-# Tâche 1.3 : Configuration de S3 Inventory
+### Tâche 1.3 : Configuration de S3 Inventory
 🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇
 
 ### Configuration
@@ -103,7 +104,7 @@ Cette phase a pour but de sécuriser les données d'identification personnelle (
 Évaluez l'impact financier de ces configurations en utilisant les pages de tarification d'Amazon S3 et Amazon Athena. Prenez en compte les coûts des requêtes, du stockage des journaux et de l'utilisation d'Athena pour les analyses.
 
 🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇
-# Tâche 1.4 : Vérification du Fonctionnement de la Gestion des Versions
+### Tâche 1.4 : Vérification du Fonctionnement de la Gestion des Versions
 🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇
 
 #### Configuration et Test
@@ -121,8 +122,9 @@ Cette phase a pour but de sécuriser les données d'identification personnelle (
 - **Utilisatrice Mary :** Doit être bloquée, confirmant ainsi l'efficacité des restrictions d'accès.
 
 🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇
-# Tâche 1.5 : Confirmation de la Journalisation au Niveau Objet et Utilisation d'Athena
+### Tâche 1.5 : Confirmation de la Journalisation au Niveau Objet et Utilisation d'Athena
 🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇
+
 #### Configuration de la Journalisation
 - **Activation de la Journalisation :** Assurez-vous que la journalisation des objets est activée pour `data-bucket-<unique-ID>`, dirigeant les logs vers `s3-objects-access-log`.
 
@@ -176,7 +178,7 @@ Cette phase a pour but de sécuriser les données d'identification personnelle (
   - Cette requête aide à filtrer et examiner les actions spécifiques des utilisateurs, illustrant comment Paulo peut accéder aux objets tandis que Mary reçoit des erreurs HTTP 403.
 
 🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇
-# Tâche 1.6 : Examen du Rapport S3 Inventory avec S3 Select
+### Tâche 1.6 : Examen du Rapport S3 Inventory avec S3 Select
 🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇
 
 #### Utilisation de S3 Select
