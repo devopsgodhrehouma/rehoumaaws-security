@@ -195,3 +195,68 @@
 - AWS Lambda
 - Gestionnaire de systèmes AWS
 - Amazon Inspector
+
+---
+
+
+### Module 6 Vérification des connaissances
+
+#### 1. Quelle affirmation concernant les journaux et les fichiers journaux est vraie ?
+- **Les fichiers journaux peuvent être utilisés pour démontrer la conformité avec les réglementations.**
+- Les fichiers journaux sont une exigence pour la réponse aux incidents et la remédiation.
+- Les fichiers journaux sont une violation du Règlement général sur la protection des données (RGPD) de l'Union européenne.
+- Les fichiers journaux ne doivent pas être utilisés pour l'audit en raison de leur nature peu fiable.
+
+#### 2. Quelle affirmation concernant la surveillance AWS est vraie ?
+- Amazon CloudWatch est le seul fournisseur de capacités de surveillance.
+- AWS CloudTrail permet de surveiller vos ressources et applications en temps réel.
+- **La surveillance est un processus continu.**
+- Amazon CloudWatch permet d'enregistrer qui fait quoi et quand ils le font.
+
+#### 3. Quelle affirmation concernant AWS CloudTrail est vraie ?
+- **CloudTrail peut être intégré dans des applications en utilisant l'API.**
+- CloudTrail vous aide à activer la gouvernance et à gérer la conformité en désactivant l'audit opérationnel et de risque de votre compte AWS.
+- CloudTrail enregistre les actions effectuées par un utilisateur, un rôle ou un service AWS sous forme de pistes.
+- CloudTrail n'enregistre pas les actions effectuées dans la console de gestion AWS.
+
+#### 4. Quelle information AWS CloudTrail NE capture-t-elle PAS ?
+- L'emplacement d'origine de la demande
+- L'heure de l'appel API
+- **L'heure d'origine de la demande dans votre heure locale**
+- Le nom de l'API appelée
+
+#### 5. Une application web utilise une flotte d'instances Amazon EC2 pour des actifs dynamiques et statiques. Les instances EC2 sont dans un sous-réseau privé, derrière un équilibreur de charge qui est dans un sous-réseau public à l'intérieur du VPC. Quels journaux de service fourniraient le PLUS d'informations sur la façon dont les utilisateurs utilisent l'application web ?
+- **Journaux d'accès Elastic Load Balancing (ELB)**
+- Journaux d'accès Amazon S3
+- Journaux AWS Trusted Advisor
+- Journaux de flux Amazon VPC
+
+#### 6. Quelle affirmation concernant Amazon CloudWatch est vraie ?
+- CloudWatch scanne continuellement les charges de travail AWS pour détecter les vulnérabilités logicielles et l'exposition non intentionnelle au réseau.
+- **CloudWatch peut être utilisé pour détecter un comportement anormal et invoquer d'autres services pour prendre d'autres mesures.**
+- CloudWatch est utilisé pour créer des silos de données pour se protéger contre la visibilité et la résolution des problèmes à l'échelle du système.
+- CloudWatch ne peut être utilisé que pour collecter des métriques dans l'environnement AWS Cloud.
+
+#### 7. AWS CloudTrail et Amazon CloudWatch remplissent des fonctions spécifiques. Quelle fonction est indicative de CloudWatch ?
+- Vous aide à déterminer qui a effectué une action non autorisée
+- **Est utile pour détecter un comportement anormal, définir des alarmes et découvrir des insights**
+- Est utile pour l'audit de conformité, l'analyse de sécurité et le dépannage
+- Surveille en continu les activités des utilisateurs
+
+#### 8. Quelle est la première étape pour utiliser les contrôles détectifs que AWS fournit ?
+- Déterminer le coût des services détectifs fournis par AWS.
+- Configurer la journalisation des services et des applications.
+- Analyser centralement les journaux.
+- **Définir vos exigences pour les journaux, les alertes et les métriques.**
+
+#### 9. Quel service AWS évalue votre compte en utilisant des vérifications qui identifient des moyens d'optimiser votre infrastructure AWS, d'améliorer la sécurité et les performances, de réduire les coûts et de surveiller les quotas de service ?
+- Amazon EventBridge
+- **AWS Trusted Advisor**
+- AWS Config
+- AWS Security Hub
+
+#### 10. Quel service de journalisation et de surveillance AWS est un service de bus d'événements sans serveur qui peut connecter vos applications avec des données provenant de diverses sources ?
+- AWS Trusted Advisor
+- AWS Security Hub
+- **Amazon EventBridge**
+- AWS Config
