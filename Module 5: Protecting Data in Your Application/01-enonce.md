@@ -340,4 +340,3 @@ Félicitations ! Vous avez complété le TP.
 - Un panneau de message indique que le TP est en train de se terminer.
 - Pour fermer le panneau, choisissez "Close" dans le coin supérieur droit.
 
-**© 2022, Amazon Web Services, Inc. et ses affiliés. Tous droits réservés. Ce travail ne peut être reproduit ou redistribué, en tout ou en partie, sans l'autorisation écrite préalable d'Amazon Web Services, Inc. La copie commerciale, le prêt ou la vente sont interdits.**
