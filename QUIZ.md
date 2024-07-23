@@ -260,3 +260,68 @@
 - AWS Security Hub
 - **Amazon EventBridge**
 - AWS Config
+
+---
+
+### Module 7 Vérification des connaissances
+
+#### 1. Quel service AWS est un service de surveillance et d'évaluation continue qui fournit un inventaire des ressources AWS et enregistre les modifications apportées à leur configuration ?
+- AWS Shield
+- Amazon Inspector
+- Amazon Simple Notification Service (Amazon SNS)
+- **AWS Config**
+
+#### 2. Un administrateur souhaite obtenir de l'aide pour gérer des opérations complexes et chronophages, telles que la mise à jour des logiciels et le routage des tickets de support. Quel service AWS répondrait à leur besoin ?
+- Amazon Detective
+- AWS Config
+- **AWS Step Functions**
+- Amazon Simple Notification Service (Amazon SNS)
+
+#### 3. Un administrateur souhaite s'assurer qu'il optimise son infrastructure AWS et améliore également la performance de la sécurité. Quelle option répondrait à leur besoin ?
+- AWS Shield
+- **AWS Trusted Advisor**
+- AWS Systems Manager
+- Amazon Macie
+
+#### 4. Un administrateur souhaite avoir des informations supplémentaires sur leurs applications et collecter des données opérationnelles sous forme de journaux, de métriques et d'événements. Quel service AWS répondrait à leur besoin ?
+- AWS CloudFormation
+- **Amazon CloudWatch**
+- Amazon Inspector
+- Amazon Detective
+
+#### 5. Un administrateur souhaite améliorer la gestion de leurs vulnérabilités. Ils aimeraient utiliser un service qui scanne en continu les instances Amazon EC2 pour détecter les vulnérabilités logicielles et l'exposition non intentionnelle au réseau. Quel service AWS répondrait à leur besoin ?
+- **Amazon Inspector**
+- Amazon Detective
+- AWS Shield
+- Amazon Macie
+
+#### 6. Un administrateur souhaite effectuer des vérifications d'évaluation continues sur leurs ressources. Le but est de vérifier que ces ressources respectent leurs propres politiques de sécurité, les meilleures pratiques de l'industrie et les normes de conformité. Quel service AWS répondrait à leur besoin ?
+- Amazon CloudWatch
+- AWS CloudFormation
+- **AWS Config**
+- AWS CloudTrail
+
+#### 7. Un administrateur souhaite augmenter la protection de leur réseau et éliminer toute activité potentiellement non autorisée ou malveillante dans leur environnement AWS. Quel service AWS répondrait à leur besoin ?
+- Amazon Macie
+- AWS CloudTrail
+- Liste de contrôle d'accès réseau (ACL)
+- **Amazon GuardDuty**
+
+#### 8. Quelles sont les meilleures pratiques pour gérer un incident ? (Sélectionnez DEUX.)
+- Exécuter du code à la demande.
+- Créer un modèle décrivant toutes les ressources AWS que vous souhaitez utiliser.
+- **Identifier le personnel clé, les ressources externes et les outils.**
+- Surveiller et évaluer en continu les services qui fournissent un inventaire des ressources AWS.
+- **Automatiser les capacités de confinement.**
+
+#### 9. Un administrateur souhaite mettre en œuvre un niveau de protection contre les attaques par déni de service distribué (DDoS). Quel service AWS répondrait à leur besoin ?
+- **AWS Shield**
+- AWS Firewall Manager
+- Amazon Inspector
+- Amazon Detective
+
+#### 10. Quelle définition décrit le mieux une réponse aux incidents ?
+- Ensemble de solutions de surveillance fiables, évolutives et flexibles
+- Capture de l'image disque ou de la configuration telle quelle d'un système d'exploitation
+- Tout événement déclenchant une alarme dans Amazon CloudWatch
+- **Ensemble de politiques et de procédures de sécurité de l'information pouvant être utilisées pour identifier, contenir et éliminer les cyberattaques**
