@@ -1,6 +1,9 @@
 # Laboratoire 6.1 : Surveillance et Alertes avec CloudTrail et CloudWatch
 
-## Aperçu et objectifs du laboratoire
+# https://www.youtube.com/playlist?list=PLu7OpmBCWRDfja-6NsoVIOX_X3LCzJSJq
+# https://www.youtube.com/playlist?list=PLVQzKSZl3hU5i4edsBByq_kmGhKfkd75q
+
+# Aperçu et objectifs du laboratoire
 
 Dans ce laboratoire, vous allez configurer la journalisation et la surveillance dans un compte AWS. Vous allez apprendre à créer une piste AWS CloudTrail, qui sera un journal d'audit des appels d'API effectués dans le compte. Vous allez ensuite créer un sujet Amazon Simple Notification Service (Amazon SNS). En vous abonnant à ce sujet par email, vous serez alerté lorsque des événements particuliers se produisent. Ensuite, vous définirez une règle Amazon EventBridge. La règle détectera chaque fois que quelqu'un modifie un groupe de sécurité et vous enverra une alerte par email à ce sujet. Enfin, vous créerez une alarme Amazon CloudWatch pour détecter chaque fois que plusieurs tentatives de connexion échouent pour la console de gestion AWS.
 
