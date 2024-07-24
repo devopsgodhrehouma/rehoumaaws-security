@@ -70,16 +70,4 @@ B. AWS CloudTrail
 C. Amazon CloudWatch  
 D. AWS S3
 
-### Réponses
-
-1. C. AWS Config
-2. B. AWS CloudTrail
-3. C. Amazon CloudWatch
-4. C. AWS Config
-5. C. Amazon CloudWatch
-6. B. Audit des actions des utilisateurs et des appels API
-7. B. AWS CloudTrail
-8. B. AWS Config
-9. B. Amazon CloudWatch
-10. B. AWS CloudTrail
 
