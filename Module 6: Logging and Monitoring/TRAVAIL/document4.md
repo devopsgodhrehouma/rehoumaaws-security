@@ -50,9 +50,7 @@ AWS EventBridge et AWS Lambda sont deux services essentiels dans l'écosystème 
 
 En combinant ces services, vous pouvez créer des architectures robustes et scalables qui répondent de manière dynamique aux événements en temps réel, automatisant ainsi de nombreuses tâches de gestion et de surveillance de votre infrastructure AWS.
 
-# Partie 2 - Débutants
-
-### Tutoriel Complet sur les Différences entre AWS EventBridge et AWS Lambda pour Débutants
+# Partie 2 (Débutants) - Tutoriel Complet sur les Différences entre AWS EventBridge et AWS Lambda pour Débutants
 
 Pour bien comprendre AWS EventBridge et AWS Lambda, imaginons d'abord quelques analogies de la vie réelle et expliquons les concepts de base.
 
