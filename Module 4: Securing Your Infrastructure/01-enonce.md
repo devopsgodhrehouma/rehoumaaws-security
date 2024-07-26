@@ -85,9 +85,7 @@ Dans cette première tâche, vous explorerez les ressources configurées dans le
     - Choisissez l'onglet **Inbound rules** (Règles entrantes), et remarquez qu'une règle a été définie. Le trafic HTTP sur le port TCP 80 avec une source de 0.0.0.0/0 (partout) est autorisé.
     - Astuce : Vous devrez peut-être faire défiler la table des règles entrantes vers la droite pour voir tous ces détails.
     - Note :
-        - Cela
-
- signifie que toute instance qui a le groupe de sécurité AppServerSG attaché peut recevoir des connexions de tout ordinateur qui tente de communiquer avec elle sur le port TCP 80.
+        - Cela signifie que toute instance qui a le groupe de sécurité AppServerSG attaché peut recevoir des connexions de tout ordinateur qui tente de communiquer avec elle sur le port TCP 80.
         - Par défaut, lorsque vous créez un groupe de sécurité, il n'a pas de règles entrantes, ce qui signifie que le trafic réseau entrant n'est pas autorisé. Cependant, ce groupe de sécurité a une règle entrante définie.
         - Les groupes de sécurité sont à état. Cela signifie que si une instance envoie une demande, le trafic de réponse à cette demande est autorisé à entrer indépendamment des règles de groupe de sécurité entrantes.
     - Choisissez l'onglet **Outbound rules** (Règles sortantes).
