@@ -1,4 +1,4 @@
-# Examen - partie 2
+# Examen 2 - partie 2.1
 
 ### Question 1
 **Comparez les stratégies basées sur les ressources (Resource-based policies) et les listes de contrôle d'accès (ACLs). Quelles sont les différences fondamentales entre ces deux approches en termes de gestion des permissions et de contrôle d'accès ? Discutez des avantages et des inconvénients de chacune. Utilisez des exemples tirés de l'expérience du lab.**
@@ -21,7 +21,7 @@
 
 
 
-# Examen - partie 2
+# Examen - partie 2.2
 
 ### Question 1
 **Expliquez comment AWS KMS (Key Management Service) est utilisé pour sécuriser les données au repos dans AWS. Discutez des étapes nécessaires pour créer et utiliser une clé KMS pour chiffrer des objets S3 et des volumes EBS. Utilisez des exemples tirés de l'expérience du lab pour illustrer votre réponse.**
