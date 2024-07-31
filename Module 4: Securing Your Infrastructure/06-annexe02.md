@@ -73,3 +73,7 @@ Dans ce lab, nous allons créer un environnement de réseau sur AWS, appelé VPC
 ### Conclusion
 
 En suivant ces étapes, vous aurez créé un environnement VPC sécurisé, avec des sous-réseaux publics et privés, un hôte bastion pour l'accès administratif, et des règles strictes de sécurité pour protéger vos ressources. C'est comme gérer un terrain de jeu privé avec des zones publiques et privées, des gardiens pour surveiller l'accès, et des règles pour assurer la sécurité et le bon fonctionnement.
+
+# Références : 
+## Lab 4 -réseaux
+- https://drive.google.com/drive/folders/1tqaa6CXHFPMbTkQEKEKRw2VoRnvDLypn?usp=sharing
