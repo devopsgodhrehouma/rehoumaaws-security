@@ -1,4 +1,4 @@
-# Schema 1 
+# Schéma 1 
 ![image](https://github.com/user-attachments/assets/4f5d941a-3aa9-487a-bf1e-9fed1861114d)
 
 
@@ -41,13 +41,13 @@ Imaginez que votre maison (VPC) a plusieurs pièces (subnets). Certaines pièces
 
 
 🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇
-# Schema 2
+# Schéma 2
 🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇
 
 ![image](https://github.com/user-attachments/assets/669eb566-77d7-4258-87d9-e46c0147e866)
 
 
-### Schéma 2 : Accès à Internet pour Serveur d'Application
+# Schéma 2 : Accès à Internet pour Serveur d'Application
 
 **Description du Schéma :**
 
@@ -64,13 +64,13 @@ Ce schéma montre une infrastructure similaire à Schéma 1 mais sans les instan
 C'est comme si vous avez un intermédiaire (NAT Gateway) dans le salon qui transmet vos messages au monde extérieur. Les réponses reviennent à cet intermédiaire, qui les transmet ensuite à vous dans votre chambre. Cela permet de garder votre chambre cachée des étrangers.
 
 🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇
-# Schema 3
+# Schéma 3
 🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇
 
 ![image](https://github.com/user-attachments/assets/02d02704-ec9c-45e8-8101-88383fd91833)
 
 
-### Schéma 3 : Configuration avec Proxy et NAT Gateway
+# Schéma 3 : Configuration avec Proxy et NAT Gateway
 
 **Description du Schéma :**
 
@@ -87,13 +87,13 @@ Ce schéma combine des éléments de Schéma 1 et Schéma 2, montrant les instan
 Vous avez des gardes (proxy servers) dans le salon pour vérifier et diriger les visiteurs vers votre chambre. Vous avez aussi un intermédiaire (NAT Gateway) pour envoyer et recevoir des messages de l'extérieur sans révéler directement votre chambre.
 
 🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇
-# Schema 4
+# Schéma 4
 🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇
 
 ![image](https://github.com/user-attachments/assets/0f7b222d-c61b-498d-9a9d-cf0cd147ae4e)
 
 
-### Schéma 4 : Erreur de Configuration avec Proxy
+# Schéma 4 : Erreur de Configuration avec Proxy
 
 **Description du Schéma :**
 
@@ -110,13 +110,13 @@ C'est comme si l'un des gardes (ProxyServer2) dans le salon n'est pas autorisé 
 
 
 🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇
-# Scehma 5
+# Schéma 5
 🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇
 
 ![image](https://github.com/user-attachments/assets/00ec5f69-3df9-49f1-88b6-87ed444d5fbd)
 
 
-### Schéma 5 : Connexion Correcte des Proxys
+# Schéma 5 : Connexion Correcte des Proxys
 
 **Description du Schéma :**
 
@@ -132,13 +132,13 @@ Ce schéma montre la configuration correcte où les deux proxys (ProxyServer1 et
 Les gardes dans le salon peuvent maintenant correctement guider les visiteurs vers votre chambre sans problèmes de communication ou de règles incorrectes.
 
 🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇
-# Scehma 6
+# Schéma 6
 🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇
 
 ![image](https://github.com/user-attachments/assets/9076d5ac-5472-473f-a011-5f100930547c)
 
 
-### Schéma 6 : Utilisation d'un Bastion Host pour SSH
+# Schéma 6 : Utilisation d'un Bastion Host pour SSH
 
 **Description du Schéma :**
 
@@ -155,14 +155,14 @@ Ce schéma montre l'utilisation d'un Bastion Host pour se connecter de manière 
 C'est comme si vous avez un garde dans le salon (Bastion Host) avec une clé spéciale. Pour entrer dans votre chambre, les visiteurs doivent d'abord parler à ce garde, qui les guide ensuite jusqu'à vous.
 
 🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇
-# Scehma 7
+# Schéma 7
 🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇
 
 ![image](https://github.com/user-attachments/assets/80c76d5a-9f49-4991-9256-449df64d0ad1)
 
 
 
-### Schéma 7 : Utilisation de AWS Systems Manager Session Manager
+# Schéma 7 : Utilisation de AWS Systems Manager Session Manager
 
 **Description du Schéma :**
 
@@ -186,7 +186,7 @@ Imaginez que vous pouvez parler directement avec quelqu'un dans votre chambre vi
 --------
 🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇
 
-# Schema 1 
+# Schéma 1 
 ![image](https://github.com/user-attachments/assets/4f5d941a-3aa9-487a-bf1e-9fed1861114d)
 
 🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇
