@@ -1,6 +1,6 @@
-## Vulgarisation du Lab: Création d'un Environnement VPC
+# Vulgarisation du Lab: Création d'un Environnement VPC
 
-### Introduction au Lab
+# Introduction au Lab
 
 Dans ce lab, nous allons créer un environnement de réseau sur AWS, appelé VPC (Virtual Private Cloud), qui permettra de sécuriser et gérer les ressources de votre café. Nous utiliserons des sous-réseaux publics et privés, un hôte bastion pour l'accès administratif, et une passerelle NAT pour l'accès Internet depuis les sous-réseaux privés.
 
