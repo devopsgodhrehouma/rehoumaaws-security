@@ -228,3 +228,5 @@ Imaginez que vous pouvez parler directement avec quelqu'un dans votre chambre vi
 ![image](https://github.com/user-attachments/assets/80c76d5a-9f49-4991-9256-449df64d0ad1)
 
 
+- Références : 
+https://drive.google.com/drive/folders/1tqaa6CXHFPMbTkQEKEKRw2VoRnvDLypn?usp=sharing
