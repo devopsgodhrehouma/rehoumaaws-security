@@ -50,9 +50,9 @@ iptables -A FORWARD -p tcp -s 192.168.1.10 --dport 3306 -d 192.168.2.10 -j ACCEP
 
 Ainsi, une DMZ permet de protéger votre réseau interne en ajoutant une couche de sécurité supplémentaire.
 
-🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇
-########## Annexe :  un réseau intermédiaire entre le réseau privée (sensible) et réseau publique (pas sécurisée) c'est DZ ?
-🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇
+🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇
+#### Annexe :  un réseau intermédiaire entre le réseau privée (sensible) et réseau publique (pas sécurisée) c'est DZ ?
+🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇
 
 Oui, ce concept est appelé une "zone démilitarisée" ou DMZ (en anglais, "Demilitarized Zone"). Une DMZ est une sous-réseau physique ou logique qui contient et expose les services externes d'une organisation à un réseau non fiable, généralement l'internet. L'objectif principal d'une DMZ est d'ajouter une couche de sécurité supplémentaire pour le réseau interne de l'organisation.
 
