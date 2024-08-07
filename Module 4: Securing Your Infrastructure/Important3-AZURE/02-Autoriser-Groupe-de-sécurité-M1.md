@@ -6,7 +6,7 @@
 ![image](https://github.com/user-attachments/assets/62138566-aa84-4b7b-bfe5-4e644fc29211)
 
 
-### Étapes pour Autoriser le Trafic HTTP (Port 80) :
+# 01 - Étapes pour Autoriser le Trafic HTTP (Port 80) :
 
 1. **Accéder au NSG :**
    - Allez sur le portail Azure et connectez-vous.
@@ -42,8 +42,9 @@ Voici comment vous pouvez configurer les paramètres de la règle dans l'interfa
 - **Priorité :** 310 (ou un autre numéro de priorité)
 - **Nom :** AllowHTTPInbound
 
-### Exemple visuel des paramètres configurés pour autoriser le trafic HTTP :
+# 02 - Exemple visuel des paramètres configurés pour autoriser le trafic HTTP :
 
-![Ajouter une règle de sécurité de trafic entrant](data:image/png;base64, **<insérez votre propre image de configuration ici>**)
+![image](https://github.com/user-attachments/assets/55e3d434-cfe5-40b6-9ef9-55bc28405ddb)
+
 
 En suivant ces étapes, vous allez créer une règle de sécurité entrante dans votre NSG qui permet le trafic HTTP (port 80) à partir de n'importe quelle source. Assurez-vous de bien définir les priorités pour éviter des conflits avec d'autres règles existantes.
