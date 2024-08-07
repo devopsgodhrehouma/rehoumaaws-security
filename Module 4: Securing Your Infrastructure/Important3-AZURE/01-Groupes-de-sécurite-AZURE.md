@@ -2,7 +2,7 @@
 
 Dans Azure, les groupes de sécurité jouent un rôle crucial dans la gestion et la sécurisation du trafic réseau. Il existe principalement deux types de groupes de sécurité : **les groupes de sécurité réseau (NSG)** et **les groupes de sécurité d'application (ASG)**. Voici une explication détaillée de chacun :
 
-## **Groupes de Sécurité Réseau (NSG)**
+# 1- **Groupes de Sécurité Réseau (NSG)**
 
 Les **Network Security Groups (NSG)** sont des objets de sécurité qui agissent comme des pare-feux distribués dans les environnements Azure. Ils permettent de filtrer le trafic réseau entrant et sortant vers et depuis les ressources Azure dans un réseau virtuel (VNet).
 
@@ -15,7 +15,7 @@ Les **Network Security Groups (NSG)** sont des objets de sécurité qui agissent
 - **AllowVNetInBound** : Permet tout le trafic entrant au sein du même réseau virtuel.
 - **DenyAllInbound** : Bloque tout le trafic entrant de l'extérieur du réseau virtuel.
 
-## **Groupes de Sécurité d'Application (ASG)**
+# 2 - **Groupes de Sécurité d'Application (ASG)**
 
 Les **Application Security Groups (ASG)** permettent de configurer la sécurité réseau comme une extension naturelle de la structure de l'application. Ils facilitent la gestion de la sécurité en regroupant des machines virtuelles et en définissant des politiques de sécurité réseau basées sur ces groupes.
 
@@ -36,11 +36,20 @@ En résumé, les groupes de sécurité dans Azure, qu'ils soient des NSG ou des 
 [4]: https://learn.microsoft.com/en-us/azure/virtual-network/network-security-group-how-it-works
 
 Citations:
+
 [1] https://learn.microsoft.com/en-us/azure/virtual-network/network-security-groups-overview
+
 [2] https://learn.microsoft.com/fr-fr/azure/virtual-network/application-security-groups
+
 [3] https://learn.microsoft.com/en-us/azure/virtual-network/application-security-groups
+
 [4] https://learn.microsoft.com/en-us/azure/virtual-network/network-security-group-how-it-works
+
 [5] https://blog.cellenza.com/cloud-2/azure-basics-les-network-security-groups/
+
 [6] https://www.geeksforgeeks.org/azure-network-security-groups/
+
 [7] https://aviatrix.com/learn-center/cloud-security/create-network-security-groups-in-azure/
+
 [8] https://www.cloudbolt.io/azure-costs/azure-nsg/
+
