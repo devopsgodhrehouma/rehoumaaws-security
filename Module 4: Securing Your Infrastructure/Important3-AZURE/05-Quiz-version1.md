@@ -92,6 +92,4 @@ C) `az network vnet create --resource-group myResourceGroup --name myAppSecurity
 **Réponse : B**
 - La commande correcte pour créer un ASG (Application Security Group) nommé `myAppSecurityGroup` dans le groupe de ressources `myResourceGroup` est `az network asg create --resource-group myResourceGroup --name myAppSecurityGroup`. Cette commande crée un ASG qui peut ensuite être utilisé pour gérer les règles de sécurité réseau de manière plus flexible et intuitive.
 
-### Résumé
 
-Ce quiz et ses réponses détaillées devraient aider à mieux comprendre les différences et les utilisations des NSG et ASG dans Azure, et comment ils peuvent être appliqués dans différents scénarios de gestion de la sécurité réseau.
