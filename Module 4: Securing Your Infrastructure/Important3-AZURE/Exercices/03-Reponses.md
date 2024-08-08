@@ -65,9 +65,7 @@
      - **Impact :** Grâce à la priorité plus basse (numéro plus petit) de la règle 1, le trafic HTTP/HTTPS entre le sous-réseau A et le sous-réseau B est autorisé avant que la règle générale de refus ne soit appliquée. Cela permet de sécuriser le sous-réseau B tout en permettant les communications nécessaires.
 
    - **Exemple 2 : Blocage Spécifique Avant Autorisation Générale**
-     - **Rè
-
-gle 1 :** Refuser le trafic RDP (port 3389) provenant d'une adresse IP suspecte.
+     - **Règle 1 :** Refuser le trafic RDP (port 3389) provenant d'une adresse IP suspecte.
        - **Priorité :** 150
        - **Source :** Adresse IP X
        - **Destination :** Any
